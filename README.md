@@ -67,7 +67,7 @@ The system separates concerns across four distinct layers:
 
 ```bash
 # Clone the repository
-git clone <repo-url>
+git clone https://github.com/jatinpanigrahy/listing-tracker.git
 cd listing-tracker
 
 # Create and activate a virtual environment
