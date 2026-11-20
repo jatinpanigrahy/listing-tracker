@@ -1,0 +1,35 @@
+# Strictly private project specifications
+docs/
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing and coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local database and export artifacts
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/*.csv
+data/*.log
+data/*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
